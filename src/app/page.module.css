@@ -1,0 +1,46 @@
+/* area de estilizacao dos botoes de categoria*/
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* area de pesquisa imput */
+.busca{
+    max-width: 1024px;
+    width: 100%;
+}
+.busca input{
+    width: 100%;
+    height: 40px;
+    margin: 50px auto;
+    padding-left:40px ;
+    background-image: url('../../public/assets/img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px 20px;
+    border-radius: 20px;
+}
+/* cards com cada prato do meno*/
+.cardsPratos{
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+/*titulo anterior aos cards*/
+.cardapio{
+    color: #daa520;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    font-weight:bold;
+}

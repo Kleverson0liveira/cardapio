@@ -1,0 +1,53 @@
+
+.baner div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 27%;
+    left: 0;
+    right: 0;
+    color: rgb(255, 251, 0);
+}
+.baner img{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.baner p{
+    color: #daa520;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.baner h1{
+    font-size: 3.5em;
+    font-weight:600;
+    color: #fefff0;
+    text-shadow: 5px -2px 10px rgba(234, 255, 40, 0.56),
+             5px -4px 14px rgba(255, 0, 0, 0.96),
+             5px -9px 20px rgba(255, 4, 4, 0.596),
+             5px 0px 10px rgba(247, 255, 9, 1),
+             5px -10px 20px rgba(247, 255, 9, 1);
+
+}
+@media(max-width:1023px){
+    .baner img{
+        height: 60vh;
+}
+.baner div{
+    bottom: 60%;
+}
+}
+@media(max-width:767px){
+    .baner h1{
+        font-size: 2.8em;
+    }
+    .baner p{
+        font-size: 1.8em;
+    }
+}

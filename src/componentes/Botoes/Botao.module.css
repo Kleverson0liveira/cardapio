@@ -1,0 +1,21 @@
+.botoes{
+    min-width: 150px;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1 1 150px;
+}
+.botoes img{
+    width: 30px;
+    height: 30px;
+}
+/*cor a ser aplicado apos evento de click*/
+.clicado{
+    background-color: #daa520;
+
+}
